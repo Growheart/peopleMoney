@@ -1,0 +1,38 @@
+<!--index.wxml-->
+<view class="container peoplelist">
+  <view class='change'>请选择想要选择得人物</view>
+  <view class='chartpeople'>
+    <view class='chartlist'>
+      <image src="/image/people/mayun1.jpg"></image>
+      <view class="name">马云</view>
+    </view>
+    <view class='chartlist'>
+      <image src="/image/people/mayun1.jpg"></image>
+      <view class="name">马云</view>
+    </view>
+    <view class='chartlist'>
+      <image src="/image/people/mayun1.jpg"></image>
+      <view class="name">马云</view>
+    </view>
+    <view class='chartlist'>
+      <image src="/image/people/mayun1.jpg"></image>
+      <view class="name">马云</view>
+    </view>
+    <view class='chartlist'>
+      <image src="/image/people/mayun1.jpg"></image>
+      <view class="name">马云</view>
+    </view>
+    <view class='chartlist'>
+      <image src="/image/people/mayun1.jpg"></image>
+      <view class="name">马云</view>
+    </view>
+    <view class='chartlist'>
+      <image src="/image/people/mayun1.jpg"></image>
+      <view class="name">马云</view>
+    </view>
+  </view>
+  <button class='money' bind:tap="getpeople">确定选择该人物得财富进行购买商品</button>
+  <!-- <navigator url="/pages/mapMarker/mapMarker" hover-class="navigator-hover" class='ditu'>地图标记</navigator>
+  <navigator url="/pages/shopMap/shopMap" hover-class="navigator-hover" class='ditu'>地图写入地址</navigator>
+  <jx-qian></jx-qian> -->
+</view>

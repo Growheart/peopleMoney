@@ -1,0 +1,70 @@
+/**index.wxss**/
+view,
+text {
+  box-sizing: border-box;
+}
+page {
+  background: radial-gradient(circle, rgb(85, 85, 85),rgb(26, 26, 25));
+  /* font-size: 22rpx; */
+}
+.change{
+  height: 100rpx;
+  width: 100%;
+  text-align: center;
+  line-height: 100rpx;
+  color: white;
+}
+.chartpeople{
+  width: 100%;
+  padding: 20rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.chartpeople .chartlist{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 150rpx;
+  border: 1px solid #fff;
+  margin:6%;
+  overflow: hidden;
+  position: relative;
+}
+.chartlist image{
+  width: 150rpx;
+  height: 150rpx;
+  display: block;
+}
+.name{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150rpx;
+  height: 150rpx;
+  line-height: 150rpx;
+  text-align: center;
+  border-radius: 150rpx;
+  background: rgba(222, 222, 222, 0.8);
+  color: rgb(35, 0, 90);
+  font-weight: 600;
+  opacity: 0;
+}
+.chartlist:hover .name{
+  animation: myMove steps(11) .6s forwards;
+}
+
+@keyframes myMove{
+    100%{opacity: 1;}
+}
+.money{
+  position: absolute;
+  bottom: 60rpx;
+  margin: 0;
+  height: 80rpx;
+  line-height: 80rpx;
+  line-break: 80rpx;
+  padding: 0 20rpx;
+  background:  #14d0a0;
+  color: #fff;
+  font-size: 26rpx;
+}

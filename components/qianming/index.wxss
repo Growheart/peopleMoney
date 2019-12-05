@@ -1,0 +1,7 @@
+/* components/qianming/index.wxss */
+.canvas {
+  width: 750rpx;
+  min-height: 400rpx;
+  border: 1rpx solid #000; 
+  box-sizing: border-box;
+}

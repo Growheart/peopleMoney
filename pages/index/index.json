@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "jx-qian":"/components/qianming/index"
+  },
+  "navigationBarTitleText": "财富选择"
+}

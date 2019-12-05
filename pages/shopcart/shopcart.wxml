@@ -1,0 +1,11 @@
+<view class='shopcart'>
+  <view class='top'>
+    <image  src="/image/people/mayun1.jpg"/>
+    <view class='price'>马云总资产 ￥ 123333333.00</view>
+  </view>
+  <view class='shoplist'>
+    <view class='item'>
+      
+    </view>
+  </view>
+</view>
