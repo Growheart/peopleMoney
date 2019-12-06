@@ -1,0 +1,46 @@
+.jx-number view,
+.jx-number text {
+  box-sizing: border-box;
+}
+
+.jx-number-disabled {
+  background-color: #f3f4f4;
+}
+
+.jx-number {
+  border: 1rpx solid #f3f4f4;
+  width: 200rpx;
+  height: 53rpx;
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.jx-btn {
+  padding: 0 18rpx;
+  font-size: 34rpx;
+  line-height: 50rpx;
+  background-color: #f3f4f4;
+  color: #14cfa0;
+}
+
+.sub-btn {
+  border-right: 1rpx solid #f3f4f4;
+  padding: 0 20rpx;
+  font-size: 36rpx;
+  color: #14cfa0;
+}
+
+.add-btn {
+  border-left: 1rpx solid #f3f4f4;
+  color: #14cfa0;
+}
+
+.jx-number input {
+  text-align: center;
+  font-size: 26rpx;
+  min-height: 0;
+}
+
+.jx-number .input-placeholder {
+  font-size: 26rpx;
+}

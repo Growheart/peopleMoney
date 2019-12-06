@@ -1,0 +1,9 @@
+<view class="jx-number {{disabled?'jx-number-disabled':''}}">
+  <view class="jx-btn sub-btn" bindlongpress="onLongpress" catchtap="onTap" bindtouchend="onTouchEnd" touchcancel="onTouchCancel" data-type="sub">
+    -
+  </view>
+  <input bindinput="onInput" bindfocus="onFocus" bindblur="onBlur" value="{{ inputValue }}" disabled="{{ disabled }}" type="digit"  placeholder-class='input-placeholder'/>
+  <view class="jx-btn add-btn" bindlongpress="onLongpress" catchtap="onTap" bindtouchend="onTouchEnd" touchcancel="onTouchCancel" data-type="add">
+    +
+  </view>
+</view>

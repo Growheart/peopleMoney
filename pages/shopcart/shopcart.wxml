@@ -1,11 +1,58 @@
 <view class='shopcart'>
   <view class='top'>
-    <image  src="/image/people/mayun1.jpg"/>
-    <view class='price'>马云总资产 ￥ 123333333.00</view>
+    <view class='imgs'>
+      <image src="/image/people/mayun1.jpg" />
+    </view>
+    <view class='price'>马云总资产 <text class='money'> ￥ 123333333.00</text></view>
   </view>
   <view class='shoplist'>
     <view class='item'>
-      
+      <view class='food'>
+        <image src="/image/people/mayun1.jpg" />
+      </view>
+      <view class='foodname'>面包</view>
+      <view class='foodprice'>￥ 23.00</view>
+      <h-number/>
+    </view>
+    <view class='item'>
+      <view class='food'>
+        <image src="/image/people/mayun1.jpg" />
+      </view>
+      <view class='foodname'>面包</view>
+      <view class='foodprice'>￥ 23.00</view>
+      <h-number/>
+    </view>
+    <view class='item'>
+      <view class='food'>
+        <image src="/image/people/mayun1.jpg" />
+      </view>
+      <view class='foodname'>面包</view>
+      <view class='foodprice'>￥ 23.00</view>
+      <h-number/>
+    </view>
+    <view class='item'>
+      <view class='food'>
+        <image src="/image/people/mayun1.jpg" />
+      </view>
+      <view class='foodname'>面包</view>
+      <view class='foodprice'>￥ 23.00</view>
+      <h-number/>
+    </view>
+    <view class='item'>
+      <view class='food'>
+        <image src="/image/people/mayun1.jpg" />
+      </view>
+      <view class='foodname'>面包</view>
+      <view class='foodprice'>￥ 23.00</view>
+      <h-number/>
+    </view>
+    <view class='item'>
+      <view class='food'>
+        <image src="/image/people/mayun1.jpg" />
+      </view>
+      <view class='foodname'>面包</view>
+      <view class='foodprice'>￥ 23.00</view>
+      <h-number/>
     </view>
   </view>
 </view>
